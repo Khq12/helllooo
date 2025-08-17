@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xonzoda | Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #e6e6e6;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #1E3A8A, #3B82F6);
+      padding: 3rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 0.8rem;
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    nav {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 0.8rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: #3B82F6;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #1E3A8A;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-left: 5px solid #1E3A8A;
+      padding-left: 10px;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #3B82F6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 1rem;
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+    ul li strong {
+      color: #3B82F6;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      color: #999;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+    }
+
+    /* 📱 Mobile Styles */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      nav a {
+        display: block;
+        margin: 6px 10px;
+        font-size: 0.95rem;
+      }
+      section {
+        padding: 2rem 1rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      ul li {
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 2rem 1rem;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav a {
+        font-size: 0.9rem;
+        margin: 5px 8px;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      ul li {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Xonzoda</h1>
+    <p>Educator • Writer • Lifelong Learner</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#passions">Passions</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am Xonzoda, a passionate and curious individual on a journey of self-discovery and growth. 
+      With a strong background in education and communication, I am dedicated to helping others learn 
+      and become the best versions of themselves.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>English Teacher</strong> — Designed and delivered engaging lessons.  
+        <br><em>Guided students to build confidence in speaking, reading, and writing while encouraging creativity and self-expression in the classroom.</em>
+      </li>
+      <li>
+        <strong>Community Volunteer</strong> — Organized youth programs and events.  
+        <br><em>Worked with young people to promote teamwork, leadership, and responsibility through meaningful activities and projects.</em>
+      </li>
+      <li>
+        <strong>Freelance Writer</strong> — Produced motivational and lifestyle content.  
+        <br><em>Shared thoughts on growth, positivity, and life experiences in a way that inspired and connected with readers.</em>
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Teaching & Public Speaking</strong> — Skilled at explaining concepts clearly, creating engaging lessons, and motivating learners.</li>
+      <li><strong>Leadership & Team Collaboration</strong> — Experience leading groups, organizing events, and working effectively with others.</li>
+      <li><strong>Adaptability & Problem-Solving</strong> — Comfortable handling challenges and adjusting to new environments or responsibilities.</li>
+      <li><strong>Languages</strong> — Fluent in <em>Uzbek, Russian, and English</em>, enabling communication across cultures.</li>
+    </ul>
+  </section>
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li><strong>Trying Something New</strong> — I enjoy stepping out of my comfort zone and discovering fresh experiences and ideas.</li>
+      <li><strong>Reading</strong> — Books are my way of exploring new worlds, expanding my knowledge, and finding inspiration.</li>
+      <li><strong>Traveling</strong> — Exploring new places allows me to connect with different cultures and broaden my perspective on life.</li>
+      <li><strong>Writing Poems</strong> — Poetry is my creative outlet, where I can turn emotions into words and share my inner world.</li>
+    </ul>
+  </section>
+
+  <section id="passions">
+    <h2>Passions</h2>
+    <ul>
+      <li><strong>Becoming a Better Person</strong> — Striving each day to grow, improve, and live with integrity.</li>
+      <li><strong>Helping Others</strong> — Finding fulfillment in supporting and guiding people on their own journeys.</li>
+      <li><strong>Teaching & Growing</strong> — Believing that teaching is not only sharing knowledge, but also a way to learn and evolve myself.</li>
+      <li><strong>Improving Little by Little</strong> — Progress doesn’t have to be huge; even small steps forward mean success.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Xonzoda. Built with 💙 and passion.</p>
+  </footer>
+</body>
+</html>
